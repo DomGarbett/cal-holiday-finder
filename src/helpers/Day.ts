@@ -31,7 +31,7 @@ export class Day {
       return "Spa Day";
     }
 
-    return `Working Day ${getWorkingPatternForDayType(this.dayType)}`;
+    return `${getWorkingPatternForDayType(this.dayType)}`;
   }
   getColour() {
     switch (this.dayType) {
