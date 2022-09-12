@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cal-holiday-finder/static/css/main.85a3d991.css",
-    "main.js": "/cal-holiday-finder/static/js/main.04aa3e84.js",
+    "main.css": "/cal-holiday-finder/static/css/main.bf63f74a.css",
+    "main.js": "/cal-holiday-finder/static/js/main.03e49fdf.js",
     "static/js/787.22307a73.chunk.js": "/cal-holiday-finder/static/js/787.22307a73.chunk.js",
     "index.html": "/cal-holiday-finder/index.html",
-    "main.85a3d991.css.map": "/cal-holiday-finder/static/css/main.85a3d991.css.map",
-    "main.04aa3e84.js.map": "/cal-holiday-finder/static/js/main.04aa3e84.js.map",
+    "main.bf63f74a.css.map": "/cal-holiday-finder/static/css/main.bf63f74a.css.map",
+    "main.03e49fdf.js.map": "/cal-holiday-finder/static/js/main.03e49fdf.js.map",
     "787.22307a73.chunk.js.map": "/cal-holiday-finder/static/js/787.22307a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85a3d991.css",
-    "static/js/main.04aa3e84.js"
+    "static/css/main.bf63f74a.css",
+    "static/js/main.03e49fdf.js"
   ]
 }
