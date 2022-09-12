@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: grid;
+}
+
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.date-grid button:first-child {
+  grid-column: 6;
+}
+
+.day-item{
+  border:1px black solid;
+}

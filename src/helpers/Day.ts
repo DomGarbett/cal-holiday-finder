@@ -33,15 +33,38 @@ export class Day {
 
     return `Working Day ${getWorkingPatternForDayType(this.dayType)}`;
   }
+  getColour() {
+    switch (this.dayType) {
+      case DayType.Nights:
+        return "#fe0100";
+      case DayType.SpaDay:
+        return "#538235";
+      case DayType.EightTilEight:
+        return "#00af50";
+      case DayType.TenTilEight:
+        return "#ffda66";
+      case DayType.EightTilSix:
+        return "#92cf51";
+      case DayType.TwoTilMidnight:
+        return "#00aff0";
+      case DayType.OneTilTenCover:
+        return "#ffff02";
+      case DayType.ElevenTilEightCover:
+        return "#ffffcb";
+      case DayType.FourTilMidnight:
+        return "#9833fe";
+      case DayType.OneTilEleven:
+        return "#ffff99";
+      case DayType.TwelveTilNine:
+        return "#aeadad";
+    }
+  }
 }
+
 function getWorkingPatternForDayType(dayType: DayType) {
   switch (dayType) {
-    case DayType.EightTilEight:
-      return "08:00 - 20:00";
     case DayType.TenTilEight:
       return "10:00 - 20:00";
-    case DayType.EightTilTen:
-      return "08:00- 22:00";
     case DayType.EightTilEight:
       return "08:00 - 20:00";
     case DayType.EightTilSix:

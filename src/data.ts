@@ -22,8 +22,8 @@ const weekB: RotaWeek = {
     new Day(DayType.Off),
     new Day(DayType.TenTilEight),
     new Day(DayType.TenTilEight),
-    new Day(DayType.EightTilTen),
-    new Day(DayType.EightTilTen),
+    new Day(DayType.EightTilEight),
+    new Day(DayType.EightTilEight),
   ],
 };
 
@@ -43,9 +43,9 @@ const weekC: RotaWeek = {
 const weekD: RotaWeek = {
   Name: "D",
   DaysOfWeek: [
-    new Day(DayType.EightTilEight),
-    new Day(DayType.EightTilEight),
-    new Day(DayType.EightTilEight),
+    new Day(DayType.EightTilSix),
+    new Day(DayType.EightTilSix),
+    new Day(DayType.EightTilSix),
     new Day(DayType.SpaDay),
     new Day(DayType.Off),
     new Day(DayType.Off),

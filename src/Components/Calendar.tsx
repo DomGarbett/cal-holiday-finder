@@ -49,12 +49,23 @@ function Calandar() {
           <option value="R">R</option>
         </select>
       </ul>
-      {rota?.map((day, index) => {
-        const date = new Date(startDate);
-        date.setDate(startDate.getDate() + index);
 
-        return <div>{`${date.toDateString()} ${day.getWorkingString()}`}</div>;
-      })}
+      <div className="calendar">
+        <div className="month-indicator"> </div>
+        <div className="day-of-week"> ... </div>
+        <div className="date-grid">
+          {rota?.map((day, index) => {
+            const date = new Date(startDate);
+            date.setDate(startDate.getDate() + index);
+
+            return (
+              <div
+                style={{ backgroundColor: day.getColour() }}
+                className="day-item">{`${date.toDateString()} ${day.getWorkingString()}`}</div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }
